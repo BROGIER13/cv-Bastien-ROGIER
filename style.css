@@ -2,6 +2,10 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*Footer-style */
 footer {
   background-color: grey; /* For browsers that do not support gradients */
@@ -45,6 +49,10 @@ footer {
   border-radius: 100%;
   margin-left: 5%;
   width: 100%;
+}
+
+.kpi-number{
+  font-size: 200%;
 }
 
 .kpi{
@@ -212,3 +220,22 @@ p.tool2{
 	margin: 2px;
 }
 /*END PART : tools.html*/
+
+
+@media (max-width: 576px) {
+  .text{
+    word-break: break-all;
+  }
+
+  .certif-box{
+    word-break: break-all;
+  }
+
+  .diplomas-box{
+    word-break: break-all;
+  }
+
+  .gallery{
+    word-break: break-all;
+  }
+}
